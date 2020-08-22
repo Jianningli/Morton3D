@@ -14,9 +14,9 @@ cd Morton3D
 python setup.py install
 ```
 
-Usage
+### Usage
 
-```
+```python
 import Morton3D
 m=Morton3D.zorder(9) # 9 is the bit length
 mortonValue,mortonBinary=m.Morton(51,20,50) # encoding, (51,20,50) is the 3D integer coordinate.
