@@ -26,4 +26,4 @@ coordinate=m.deMorton('000000000101111000010101001',1)
 ```
 
 * [1] [Z-order Curve](https://en.wikipedia.org/wiki/Z-order_curve)
-* [2] [Uploading Python Pagecage to PyPi](https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
+* [2] [Uploading Python Package to PyPi](https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
