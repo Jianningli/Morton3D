@@ -3,10 +3,11 @@ Efficient pythonic implementation of 3D Morton encoding and decoing (https://en.
 
 ### Installation
 
+pip install:
 ```shell script
 pip install Morton3D==1.0
 ```
-
+install from source:
 ```shell script
 git clone https://github.com/Jianningli/Morton3D
 cd Morton3D
