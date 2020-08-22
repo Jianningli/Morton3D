@@ -12,7 +12,7 @@ setup(
     description='Efficient 3D Morton Encoding and Decoding',
     keywords='z-order, morton order, 3D hashing',
     url='https://github.com/Jianningli/Morton3D',
-    download_url = 'https://github.com/Jianningli/Morton3D/archive/1.0.zip', 
+    download_url = 'https://github.com/Jianningli/Morton3D/archive/1.0.1.zip', 
     py_modules=['Morton3D'],
     
   classifiers=[
