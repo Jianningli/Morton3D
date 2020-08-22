@@ -35,9 +35,6 @@ class zorder(object):
 		xb=self.checklen(xb)
 		yb=self.checklen(yb)
 		zb=self.checklen(zb)
-		print('x bit rep:',xb)
-		print('y bit rep:',yb)
-		print('z bit rep:',zb)
 		temp=[]
 		for i in range(length):
 			temp.append(zb[i])
@@ -80,17 +77,13 @@ class zorder(object):
 			raise Exception("the coordinate values must be no greater than the maximum value the specified bit length can represent")
 
 		zNum,bits=self.xyz2zorder(x,y,z,bitlength)
-		print('morton values:',zNum)
-		print('morton (binary):',bits.encode('utf-8'))
 		return zNum,bits
 
 	def deMorton(self,inp,isbin):
 		if isbin:
 			coor=self.zvalbin2xyz(inp)
-			print(coor)
 		else:
 			coor=self.zval2xyz(inp)
-			print(coor)
 		return coor
 
 
