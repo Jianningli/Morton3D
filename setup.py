@@ -12,5 +12,14 @@ setup(
     description='Efficient 3D Morton Encoding and Decoding',
     keywords='z-order, morton order, 3D hashing',
     url='https://github.com/Jianningli/Morton3D',
+    download_url = 'https://github.com/Jianningli/Morton3D/archive/1.0.zip', 
     py_modules=['Morton3D'],
+    
+  classifiers=[
+    'Development Status :: 3 - Alpha',      
+    'Intended Audience :: Developers',   
+    'Topic :: Software Development :: Build Tools',
+    'License :: OSI Approved :: MIT License',   
+    'Programming Language :: Python :: 3',      
+  ],
 )
