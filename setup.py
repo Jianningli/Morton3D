@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='Morton3D',
-    version='1.0',
+    version='1.0.1',
     author='Jianning Li',
     author_email='jianningli.me@gmail.com',
     maintainer='Jianning Li',
