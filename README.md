@@ -1,6 +1,16 @@
 # Morton3D
 Efficient pythonic implementation of 3D Morton encoding and decoing (https://en.wikipedia.org/wiki/Z-order_curve).
 
+Installation
+
+```
+git clone https://github.com/Jianningli/Morton3D
+cd Morton3D
+python setup.py install
+```
+
+Usage
+
 ```
 import Morton3D
 m=Morton3D.zorder(9) # 9 is the bit length
