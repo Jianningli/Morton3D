@@ -1,9 +1,13 @@
-# Morton3D
+# Morton3D (https://pypi.org/project/Morton3D/1.0/)
 Efficient pythonic implementation of 3D Morton encoding and decoing (https://en.wikipedia.org/wiki/Z-order_curve).
 
-Installation
+### Installation
 
+```shell script
+pip install Morton3D==1.0
 ```
+
+```shell script
 git clone https://github.com/Jianningli/Morton3D
 cd Morton3D
 python setup.py install
