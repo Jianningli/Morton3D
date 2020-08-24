@@ -1,5 +1,6 @@
 # Morton3D ([Homepage](https://pypi.org/project/Morton3D/1.0.1/))
 Efficient pythonic implementation of 3D Morton encoding and decoing.
+Similar python packages on Github: [pymorton](https://github.com/trevorprater/pymorton), [morton-py](https://pypi.org/project/morton-py/),[pyzorder](https://pypi.org/project/pyzorder/)
 
 ### Installation
 
