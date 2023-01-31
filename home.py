@@ -25,7 +25,7 @@ st.write(mortonBinary)
 
 st.write('Morton Decoding...')
 
-user_input_2 = st.text_input("specify the binary encoding:",'000000000101111000010101001')
+user_input_2 = st.text_input("specify the binary encoding:",str(mortonBinary))
 coordinate=m.deMorton(user_input_2,1)
 st.write('the 3D integer coordinate is...')
 st.write(coordinate)
